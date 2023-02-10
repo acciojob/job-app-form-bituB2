@@ -12,14 +12,14 @@ label {
   margin-top: 20px;
   display: block;
 }
-
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="number"],
-input[type="date"],
-select,
-textarea {
+#name,
+#email,
+#age,
+#dob,
+#password,
+#laptop,
+#portfolio
+ {
   width: 100%;
   padding: 10px;
   margin-top: 10px;
@@ -29,7 +29,7 @@ textarea {
   font-size: 16px;
 }
 
-input[type="submit"] {
+#submit{
   margin-top: 20px;
   padding: 10px 20px;
   background-color: lightgray;
@@ -39,7 +39,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+#submit:hover {
   background-color: gray;
   color: white;
 }
