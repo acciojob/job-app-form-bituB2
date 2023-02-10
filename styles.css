@@ -1,2 +1,45 @@
+form {
+  width: 500px;
+  margin: 50px auto;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
 
-/* Your CSS Code here. */
+label {
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: gray;
+  color: white;
+}
